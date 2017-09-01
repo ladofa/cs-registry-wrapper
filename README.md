@@ -1,10 +1,12 @@
 # C# Registry Wrapper
 This is an capsulation code to use Microsoft.Win32.Registry easily. It is based on two purposes.
 
- - To treat registry key as property
+ - To treat registry key as a property
  - To reduce code writting
 
  It store all data as string, and restore it using the parsor of each types. And I used dynamic value to omit type casting. This strategy costs resource but make the code shorter.
+ 
+ The name of registry key equals the name of the property. All keys should be in a same subkey.
 
  ## The Usage
 
