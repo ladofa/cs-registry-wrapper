@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace cs_registry_wrapper
 {
-	class Program
+	class Examples
 	{
 		static void Main(string[] args)
 		{
+			
+			int i = Reg.TestInt++;
+			Reg.TestDouble += 0.1;
+			double d = Reg.TestDouble;
+
+			Console.WriteLine($"i : {i}, d : {d}");
+
+			//try it again and again
 		}
 	}
 }
